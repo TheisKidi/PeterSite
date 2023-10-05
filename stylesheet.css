@@ -105,4 +105,25 @@ a{
   letter-spacing: 2px;
   font-weight: 400;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.week-header{
+  flex: 1;
+  margin: 0;
+}
+
+.thin-p{
+  font-weight: 200;
+  display: none;
+}
+
+.ferie-div{
+  background-color: #e7902b;
+}
+
+.obligatorisk-div{
+  background-color: #679344;
 }
