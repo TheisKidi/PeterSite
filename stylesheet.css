@@ -112,9 +112,19 @@ a{
   justify-content: space-evenly;
 }
 
+
+img.div-img{
+  width: 25px;
+  
+}
+
 .week-header{
   flex: 1;
   margin: 0;
+}
+
+.week-flex{
+  flex: 1;
 }
 
 .thin-p{
@@ -128,4 +138,13 @@ a{
 
 .assignment-p{
   width: 30%;
+}
+
+.text-icon-div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-div {
+  flex: 1;
 }
