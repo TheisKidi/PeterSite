@@ -91,6 +91,8 @@ a{
 /* Skjul detaljerne som standard */
 .week-details {
   display: none;
+  flex-direction: row;
+  justify-content: space-between;
 }
 /* Stil for ugeelementer */
 .week-item {
@@ -120,10 +122,10 @@ a{
   display: none;
 }
 
-.ferie-div{
-  background-color: #e7902b;
+.description-p{
+  width: 70%;
 }
 
-.obligatorisk-div{
-  background-color: #679344;
+.assignment-p{
+  width: 30%;
 }

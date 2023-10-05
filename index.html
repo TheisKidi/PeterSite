@@ -2,6 +2,7 @@
 <!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Teknik - Semester Plan</title>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta name="author" content="Peter Levinsky" />
@@ -11,7 +12,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="stylesheet.css" />
-    <script src="divFoldout.js"></script>
+
 </head>
 <body>
   <div class="center-div">
@@ -42,82 +43,126 @@
             <p>Software</p>
           </div>
         </div>
-        <div class="week-item" onclick="toggleDetails('week41', 'thin1')">
+
+        <div id="week40" class="week-item ferie-div" onclick="toggleDetails('week40details', 'thin0')">
+          <p class="week-header">Uge 40</p>
+          <p id="thin0" class="week-header thin-p">Efterårsferie</p>
+        </div>
+        <div id="week40details" class="week-details">
+            <p>EFTERÅRSFERIE</p>
+        </div>
+        <div id="week41" class="week-item" onclick="toggleDetails('week41details', 'thin1')">
           <p class="week-header">Uge 41</p>
           <p id="thin1" class="week-header thin-p">URI-Design</p>
         </div>
-        <div id="week41" class="week-details">
-            <p>
-              Tirsdag<br>
+        <div id="week41details" class="week-details">
+            <p class="description-p">
+              <strong>Tirsdag<br></strong>
               Intro til faget Teknik<br>
               Den lagdelte model CN kap1: ss. 31-64<br>
               Video vises i klassen:  short movie of network<br>
               Slides: ch1-intro,   ch1-History<br>
               <br>
-              Torsdag<br>
+              <strong>Torsdag<br></strong>
               Python interpreter - download : <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a><br> 
               Udviklingsværktøj Visual Code - Download: <a href="https://code.visualstudio.com">https://code.visualstudio.com</a><br>
               Debugging in Visual Code Python : <a href="https://code.visualstudio.com/docs/python/debugging">https://code.visualstudio.com/docs/python/debugging</a><br>
               Python W3Schools Tutorial: <a href="https://www.w3schools.com/python/">https://www.w3schools.com/python/</a><br>
               Beginners guide: <a href="https://wiki.python.org/moin/BeginnersGuide">https://wiki.python.org/moin/BeginnersGuide</a><br>
               Generelt Python: <a href="https://www.python.org/">https://www.python.org/</a></p>
+              <p class="assignment-p">
+                <strong>Opgaver:</strong><br>
+                <a href="http://pele-easj.dk/2023e-tek/SEMESTER.htm">Integration-test med Postman</a><br>
+                <a href="http://pele-easj.dk/2023e-tek/SEMESTER.htm">URI-Design</a>
+              </p>
         </div>
     
-        <div class="week-item ferie-div" onclick="toggleDetails('week42', 'thin2')">
+        <div id="week42" class="week-item ferie-div" onclick="toggleDetails('week42details', 'thin2')">
           <p class="week-header">Uge 42</p>
           <p id="thin2" class="week-header thin-p">Efterårsferie</p>
         </div>
-        <div id="week42" class="week-details">
-            <p>I HAR FERIE</p>
+        <div id="week42details" class="week-details">
+            <p>EFTERÅRSFERIE</p>
         </div>
     
-        <div class="week-item" onclick="toggleDetails('week43', 'thin3')">
+        <div id="week43" class="week-item" onclick="toggleDetails('week43details', 'thin3')">
           <p class="week-header">Uge 43</p>
-          <p id="thin3" class="week-header thin-p">Consume Rest fra Python</p>
+          <p id="thin3" class="week-header thin-p">Consume Rest fra Python <strong> | </strong>5 lagsmodellen mere applikationslag</p>
         </div>
-        <div id="week43" class="week-details">
-            <p>uge 43</p>
+        <div id="week43details" class="week-details">
+          <p class="description-p">
+            <strong>Tirsdag<br></strong>
+            Python (repetition af uge 35-36)<br>
+            <br>
+            <strong><i>Onsdag<br>
+            Prøveeksamen (programmering og teknik)<br></strong></i>
+            <br>
+            <strong>Torsdag<br></strong>
+            Gennemgang opgave<br>
+            Repetition: CN kap 1 + 2.2 + 3.1-3.3 + 3.5<br>
+            CN kap 2 DNS: kap 2.4 pp. 152-163<br>
+            CN kap 2.3<br>
+          </p>
+          <p class="assignment-p">
+            <strong>Opgaver:</strong><br>
+            <a href="http://pele-easj.dk/2023e-tek/SEMESTER.htm">Python program der konsumerer REST-service</a><br>
+            <a href="http://pele-easj.dk/2023e-tek/SEMESTER.htm">Begreber</a>
+          </p>
         </div>
 
-        <div class="week-item" onclick="toggleDetails('week44', 'thin4')">
+        <div id="week44" class="week-item" onclick="toggleDetails('week44details', 'thin4')">
           <p class="week-header">Uge 44</p>
-          <p id="thin4" class="week-header thin-p">P2P-applikation</p>
+          <p id="thin4" class="week-header thin-p">P2P-applikation<strong> | </strong>Netværkslaget</p>
         </div>
-        <div id="week44" class="week-details">
-            <p>uge 44</p>
+        <div id="week44details" class="week-details">
+            <p class="description-p">
+              <strong>Tirsdag</strong><br>
+              CN kap 2.5: P2P pp. 161-166<br>
+              CN kap 4.1: pp. 333-339<br>
+              <br>
+              <strong>Torsdag</strong><br>
+              CN kap 4.4: pp. 360-378<br>
+            </p>
+            <p class="assignment-p">
+              <strong>Opgaver:</strong><br>
+              <a href="http://pele-easj.dk/2023e-tek/SEMESTER.htm">Meget simpel fildelings system (læses i par/gruppe)</a><br>
+              <a href="http://pele-easj.dk/2023e-tek/SEMESTER.htm">UDP-Broadcast</a><br>
+              <a href="http://pele-easj.dk/2023e-tek/SEMESTER.htm">Proxy-server</a>
+            </p>
         </div>
 
-        <div class="week-item" onclick="toggleDetails('week45', 'thin5')">
+        <div id="week45" class="week-item" onclick="toggleDetails('week45details', 'thin5')">
           <p class="week-header">Uge 45</p>
           <p id="thin5" class="week-header thin-p">SSL programmering <strong>|</strong> Sikkerheds pricipper <strong>|</strong> Virtualisering</p>
         </div>
-        <div id="week45" class="week-details">
+        <div id="week45details" class="week-details">
             <p>uge 45</p>
         </div>
 
-        <div class="week-item" onclick="toggleDetails('week46', 'thin6')">
+        <div id="week46" class="week-item" onclick="toggleDetails('week46details', 'thin6')">
           <p class="week-header">Uge 46</p>
           <p id="thin6" class="week-header thin-p">Intro raspberry-Pi</p>
         </div>
-        <div id="week46" class="week-details">
+        <div id="week46details" class="week-details">
             <p>uge 46</p>
         </div>
 
-        <div class="week-item" onclick="toggleDetails('week47', 'thin7')">
+        <div id="week47" class="week-item" onclick="toggleDetails('week47details', 'thin7')">
           <p class="week-header">Uge 47</p>
           <p id="thin7" class="week-header thin-p">raspberry-Pi</p>
         </div>
-        <div id="week47" class="week-details">
+        <div id="week47details" class="week-details">
             <p>uge 47</p>
         </div>
 
-        <div class="week-item obligatorisk-div" onclick="toggleDetails('week48', 'thin8')">
+        <div id="week48" class="week-item obligatorisk-div" onclick="toggleDetails('week48details', 'thin8')">
           <p class="week-header">Uge 48</p>
           <p id="thin8" class="week-header thin-p">Tværfaglig projekt &#40SYM ,PROG ,TEK&#41</p>
         </div>
-        <div id="week48" class="week-details">
+        <div id="week48details" class="week-details">
             <p>uge 48</p>
         </div>
     </div>
+    <script src="divFoldout.js"></script>
 </body>
 </html>
