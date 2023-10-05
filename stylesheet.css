@@ -96,7 +96,6 @@ a{
 }
 /* Stil for ugeelementer */
 .week-item {
-  text-align: center;
   cursor: pointer;
   margin: 10px 0;
   font-weight: bold;
@@ -142,7 +141,7 @@ img.div-img{
 
 .text-icon-div {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .flex-div {
