@@ -28,4 +28,3 @@ function currentWeekToggler(divId) {
 for (let i = 1; i <= 52; i++) {
   currentWeekToggler('week' + i);
 }
-
