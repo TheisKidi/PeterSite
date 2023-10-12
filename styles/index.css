@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "poppins";
+}
+
+body{
+  background-color: #2d313e
+}
+
+.nav-container{
+}
+
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  background-color: #525168;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav-links-container{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  padding-left: 20px;
+}
+
+.nav-links.logo{
+  font-family: "Shrikhand";
+  font-size: 25px;
+}
+
+.nav-links{
+  font-size: 16px;
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.nav-links.right img{
+  height: 18px;
+  align-items: center;
+}
