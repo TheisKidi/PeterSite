@@ -48,3 +48,29 @@ body{
   height: 18px;
   align-items: center;
 }
+
+.teacher-div{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  padding-top: 50px;
+  gap: 25px;
+}
+
+.teacher-img{
+  height: 400px;
+  border-radius: 10px;
+  filter: grayscale(1)
+}
+
+.teacher-name{
+  font-size: 30px;
+  color: #f5f5f5;
+}
+
+.teacher-description{
+  font-size: 25px;
+  color: #f5f5f5;
+}
